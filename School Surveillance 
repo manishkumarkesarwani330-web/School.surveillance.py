@@ -1,0 +1,28 @@
+
+print("===== SCHOOL SURVEILLANCE SYSTEM =====")
+
+while True:
+    print("\n1. Record Visitor")
+    print("2. View Visitor")
+    print("3. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        name = input("Enter visitor name: ")
+        purpose = input("Enter purpose of visit: ")
+
+        print("\nVisitor Recorded Successfully!")
+        print("Name:", name)
+        print("Purpose:", purpose)
+
+    elif choice == "2":
+        print("Visitor details are displayed")
+        print("Note: This simple version does not save records.")
+
+    elif choice == "3":
+        print("System Closed. Thank You!")
+        break
+
+    else:
+        print("Invalid choice. Please try again.")
